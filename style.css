@@ -1,0 +1,262 @@
+header {
+  align-items: center;
+  display: flex;
+  justify-content: baseline;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  /* height: 150px; */
+}
+body {
+  background-color: #f7f7f7;
+  font-family: "Roboto Neue", sans-serif;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+.logo_s {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+img[alt="go"] {
+  border-radius: 500px;
+}
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  /* padding-left: 20px; */
+  margin: 0 10px;
+  font-family: "Bebas Neue", sans-serif;
+}
+nav a:hover {
+  opacity: 0.6;
+  text-decoration: underline 2px #d35448;
+}
+.pois {
+  border-bottom: 2px #d35448 solid;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.section1 {
+  /* padding-top: 85px;
+    padding-bottom: 85px; */
+  padding: 60px 20px;
+}
+.premier {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto 60px;
+  gap: 50px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.logo_XL {
+  position: relative;
+  left: 110px;
+  border-radius: 150px;
+}
+.h3 {
+  /* position: relative;
+    left: 600px; */
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  border-bottom: 2px #d35448 solid;
+  width: 150px;
+  margin: 0 auto;
+}
+.hi {
+  /* position: relative;
+    left: 600px; */
+  font-family: "Bebas Neue", sans-serif;
+  border-bottom: 2px #d35448 solid;
+  width: 205px;
+  margin-bottom: 20px;
+  margin: 50px auto;
+  text-align: center;
+}
+.lol {
+  position: relative;
+  left: 450px;
+  font-family: "Bebas Neue", sans-serif;
+  border-bottom: 2px #d35448 solid;
+  width: 450px;
+  margin-bottom: 40px;
+  margin-top: 60px;
+}
+.hey {
+  position: relative;
+  left: 550px;
+  font-family: "Bebas Neue", sans-serif;
+  border-bottom: 2px #d35448 solid;
+  width: 175px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+.text {
+  max-width: 600px;
+  text-align: justify;
+}
+h1 {
+  font-size: 50px;
+  font-family: "Bebas Neue", sans-serif;
+  padding-bottom: 0px;
+}
+.clic {
+  width: 125px;
+  font-family: "Bebas", sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  margin-top: 20px;
+  padding: 12px 20px;
+  border-radius: 1px;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 80px;
+}
+h2 {
+  font-size: 2em;
+  font-family: "Bebas Neue", sans-serif;
+}
+span {
+  color: #d35448;
+}
+.phrase {
+  font-size: 1.2em;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+.text p {
+  padding-bottom: 50px;
+  /* font-size: 36px; */
+}
+/* {.text h1
+  padding-bottom: 50px;
+  font-size: 36px;
+} */
+.adresses {
+  text-align: justify;
+  padding: 40px 20px;
+}
+.images {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 70px;
+}
+/* .adr1 { */
+/* width: 300px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; 
+} */
+
+.adr1 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #666666;
+}
+.adr1 strong {
+  color: #000000;
+}
+.adr1 img {
+  border-radius: 3px;
+  object-fit: cover;
+}
+.contenaire {
+  background-color: #d35448;
+  text-align: center;
+  padding: 30px 10px;
+  color: #ffffff;
+}
+.clac {
+  display: inline-block;
+  font-family: "Bebas", sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 12px 20px;
+  border-radius: 1px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.clac:hover {
+  background-color: #333333;
+}
+.paragraphe {
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: "Roboto", sans-serif;
+}
+.paragraphe a {
+  color: #000;
+  text-decoration: none;
+}
+i {
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+}
+.photo {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  gap: 50px;
+  position: relative;
+  left: 250px;
+}
+.chat {
+  background-color: white;
+  box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.1);
+}
+.dernier {
+  text-align: center;
+  padding: 40px 20px;
+}
+footer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 150px;
+}
+.minimenu {
+  padding: 40px 20px;
+  /* text-align: center; */
+  margin: auto 120px;
+}
+.menu {
+  background-color: #fff;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 30px;
+  text-align: center;
+}
+.KO {
+  display: inline;
+  border-bottom: 2px #d35448 solid;
+}
+.entree,
+.plats,
+.desserts,
+.boissons {
+  margin: 50px auto;
+}
+.bis {
+  border-left: 2px #d35448 solid;
+  padding-left: 3px;
+}
+.ADRESSES {
+  display: flex;
+  justify-content: space-between;
+}
+.indications {
+  margin: auto 100px;
+}
+.indications p {
+  margin-bottom: 40px;
+}
